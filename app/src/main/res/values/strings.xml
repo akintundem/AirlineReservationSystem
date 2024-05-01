@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Skylink</string>
+    <string name="flying_from">From</string>
+    <string name="flying_to">To</string>
+    <string name="search_flights">Search flights...</string>
+    <string name="flight_not_found">Flight not found\nPlease update search or filter parameters</string>
+    <string name="no_booked_flights">You have not made any booking with us before</string>
+    <string name="sign_up"><u>Sign up</u></string>
+    <string name="sign_in"><u>Sign in</u></string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string-array name="sorting_list_option">
+        <item>Lowest price</item>
+        <item>Direct flight</item>
+        <item>Earliest departure</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,108 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/gradient_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Add an ImageView for the flight departing image -->
+                <ImageView
+                    android:id="@+id/departingFlightImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/travel"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="Flight Departing Image"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <!-- Your existing TextViews -->
+                    <TextView
+                        android:id="@+id/departingAirportTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Departing Airport: XYZ"
+                        android:textSize="18sp"
+                        android:textColor="#333333"
+                        android:layout_marginTop="8dp"/>
+
+                    <TextView
+                        android:id="@+id/arrivingAirportTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arriving Airport: ABC"
+                        android:textSize="18sp"
+                        android:textColor="#333333"
+                        android:layout_marginTop="8dp"/>
+
+                    <TextView
+                        android:id="@+id/departureTimeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Departure Time: 12:00 PM"
+                        android:textSize="18sp"
+                        android:textColor="#333333"
+                        android:layout_marginTop="8dp"/>
+
+                    <TextView
+                        android:id="@+id/arrivalTimeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arrival Time: 2:00 PM"
+                        android:textSize="18sp"
+                        android:textColor="#333333"
+                        android:layout_marginTop="8dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/selectedPassengerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Passengers from drop down box: "
+            />
+
+        <Spinner
+            android:id="@+id/namesSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_spinner_background"/>
+
+        <LinearLayout
+            android:id="@+id/Flight_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+            <!-- Add your flight-related content here -->
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
