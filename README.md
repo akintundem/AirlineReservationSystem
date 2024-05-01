@@ -1,3 +1,5 @@
+# Note: This is a class project and was completed with another three members. 
+
 # SkyLink
 
 Website - [shadedragon-a02-6.framer.website](https://shadedragon-a02-6.framer.website)
@@ -22,14 +24,7 @@ In summary, Skylink provides a user-centric solution to simplify and enhance the
 - Android Studio (latest version recommended)
 - An Android device or emulator to run the app
 
-#### Cloning the repository
 
-To clone the repository and check out the project, run:
-
-```bash
-git clone https://code.cs.umanitoba.ca/comp3350-winter2024/shadedragon-a02-6.git
-cd shadedragon-a02-6
-```
 
 #### Opening the project in Android Studio
 
