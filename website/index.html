@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://shadedragon-a02-6.framer.website/ -->
+<html lang="en-CA"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <script type="importmap">{"imports":{"__framer-badge":"https://framerusercontent.com/modules/kr6mBIQPAjMiv35rQa3A/4eYtH5KiUgHEkzljpsYR/PX9hIOIVM.js","__framer-not-found-page":"https://framer.com/m/framer/SitesNotFoundPage.js@1.0.0","@vimeo/player":"https://ga.jspm.io/npm:@vimeo/player@2.16.4/dist/player.es.js","#framer/local/canvasComponent/dF5Vm49Sr/dF5Vm49Sr.js":"https://framerusercontent.com/modules/pIz1p6NqzNS9gZFXFHEq/o0qrNnFNwwMyQevsEk62/dF5Vm49Sr.js","#framer/local/canvasComponent/Dr9nOvM95/Dr9nOvM95.js":"https://framerusercontent.com/modules/xWPvXLjWilEkHWIDyfIt/D4vq4KWAjrcUhAIh7xdp/Dr9nOvM95.js","#framer/local/canvasComponent/Giq1_tbKg/Giq1_tbKg.js":"https://framerusercontent.com/modules/HBEFGlA8qHt9AHSpL9xR/uKUyH33AEvoGsDCdijZ3/Giq1_tbKg.js","#framer/local/css/B57WELTS9/B57WELTS9.js":"https://framerusercontent.com/modules/S3B1p8kKXg6W5nlQyXoR/D4lJv9xrObbYn1AE11Z4/B57WELTS9.js","#framer/local/screen/augiA20Il/augiA20Il.js":"https://framerusercontent.com/modules/rn1MQB8CrAN5URxJhdjq/o61mZKUzK4AXX4jiI1xQ/augiA20Il.js","#framer/local/siteMetadata/siteMetadata/siteMetadata.js":"https://framerusercontent.com/modules/AdOhxFyCT4T35vGlJtGD/aNwIFZxlELJkOwudVnlr/siteMetadata.js","#framer/local/codeFile/qdsh5TH/Examples.js":"https://framerusercontent.com/modules/xI0qckmLCt9yNktkSYj3/aTm4SOHtmEPG9h7stR5i/Examples.js","#framer/local/webPageMetadata/augiA20Il/augiA20Il.js":"https://framerusercontent.com/modules/t4XTICXo4zG4f2opF2qH/mib9YWXwNjNVqtPjiTjm/augiA20Il.js","framer":"https://app.framerstatic.com/framer.RQSONY2U.js","framer-motion":"https://app.framerstatic.com/framer-motion.5PJAF455.js","react":"https://ga.jspm.io/npm:react@18.2.0/index.js","react-dom":"https://ga.jspm.io/npm:react-dom@18.2.0/index.js","react-dom/client":"https://ga.jspm.io/npm:react-dom@18.2.0/client.js","react-dom/server":"https://ga.jspm.io/npm:react-dom@18.2.0/server.browser.js","react/jsx-runtime":"https://ga.jspm.io/npm:react@18.2.0/jsx-runtime.js"},"scopes":{"https://ga.jspm.io/":{"fs":"https://framer.com/m/framer/empty.js@0.1.0","process":"https://framer.com/m/framer/empty.js@0.1.0","scheduler":"https://ga.jspm.io/npm:scheduler@0.23.0/index.js"},"https://esm.sh/":{"fs":"https://framer.com/m/framer/empty.js@0.1.0","process":"https://framer.com/m/framer/empty.js@0.1.0","scheduler":"https://ga.jspm.io/npm:scheduler@0.23.0/index.js"}}}</script>
+    <script async="" src="./Skylink_files/es-module-shims.js" crossorigin="anonymous" data-framer-es-module-shims=""></script>
+    
+    <!-- End of headStart -->
+    <meta name="viewport" content="width=1725">
+    <meta name="generator" content="Framer 0240392">
+    <title>Skylink</title>
+    <meta name="description" content="Made with Framer">
+    <meta name="framer-search-index" content="indexing">
+    <link rel="icon" href="https://framerusercontent.com/sites/icons/default-favicon.v3.png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="My Framer Site">
+    <meta property="og:description" content="Made with Framer">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Framer Site">
+    <meta name="twitter:description" content="Made with Framer">
+    <style>
+        html, body, #main {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        * {
+            box-sizing: border-box;
+            -webkit-font-smoothing: inherit;
+        }
+        h1, h2, h3, h4, h5, h6, p, figure {
+            margin: 0;
+        }
+        body, input, textarea, select, button { font-size: 12px; font-family: sans-serif; }
+        body {  }
+@media (prefers-color-scheme: dark) { body {  } }
+        
+        #__framer-badge-container {
+            position: fixed;
+            bottom: 0;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            pointer-events: none;
+            z-index: 314159;
+        }
+        .__framer-badge { pointer-events: auto; }
+        /* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v15/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsK8ah8QA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsD8ah8QA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsL8ah8QA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsE8ah8QA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsI8ah8QA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsJ8ah8QA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/intertight/v7/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v15/92zatBhPNqw73oDd4iYl.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v15/92zatBhPNqw73ord4iYl.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v15/92zatBhPNqw73oTd4g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v15/92zatBhPNqw73oDd4iYl.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v15/92zatBhPNqw73ord4iYl.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v15/92zatBhPNqw73oTd4g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVIGxA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVIGxA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVIGxA.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVIGxA.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* math */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5caVIGxA.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0330, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2034-2037, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110-2112, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2133-2138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5OaVIGxA.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, U+1FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVIGxA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVIGxA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face { font-family: "Inter"; src: url("https://app.framerstatic.com/Inter-Medium.cyrillic-ext-M4WHNGTS.woff2"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F }
+@font-face { font-family: "Inter"; src: url("https://app.framerstatic.com/Inter-Medium.cyrillic-JVU2PANX.woff2"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116 }
+@font-face { font-family: "Inter"; src: url("https://app.framerstatic.com/Inter-Medium.greek-ext-4KCQBEIZ.woff2"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+1F00-1FFF }
+@font-face { font-family: "Inter"; src: url("https://app.framerstatic.com/Inter-Medium.greek-DPOQGN7L.woff2"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+0370-03FF }
+@font-face { font-family: "Inter"; src: url("https://app.framerstatic.com/Inter-Medium.latin-ext-J4DBSW7F.woff2"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF }
+@font-face { font-family: "Inter"; src: url("https://app.framerstatic.com/Inter-Medium.latin-Y3IVPL46.woff2"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD }
+@font-face { font-family: "Inter"; src: url("https://app.framerstatic.com/Inter-Medium.vietnamese-PJV76O4P.woff2"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB }
+@font-face { font-family: "Inter Tight Placeholder"; src: local("Arial"); ascent-override: 99.65%; descent-override: 24.81%; line-gap-override: 0.00%; size-adjust: 97.21% }
+@font-face { font-family: "Jost Placeholder"; src: local("Arial"); ascent-override: 112.02%; descent-override: 39.26%; line-gap-override: 0.00%; size-adjust: 95.51% }
+@font-face { font-family: "Open Sans Placeholder"; src: local("Arial"); ascent-override: 101.58%; descent-override: 27.84%; line-gap-override: 0.00%; size-adjust: 105.22% }
+@font-face { font-family: "Inter Placeholder"; src: local("Arial"); ascent-override: 90.00%; descent-override: 22.43%; line-gap-override: 0.00%; size-adjust: 107.64% }
+@font-face { font-family: "DM Sans Placeholder"; src: local("Arial"); ascent-override: 94.35%; descent-override: 29.49%; line-gap-override: 0.00%; size-adjust: 105.14% }
+    </style>
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="">
+    
+    
+    <!-- End of headEnd -->
+<style type="text/css" data-framer-css="true"></style></head>
+
+<body cz-shortcut-listen="true" class="framer-body-augiA20Il-framer-erGCk">
+    <script async="" src="./Skylink_files/script" data-fid="d83ae4f122f5ebe8dd30d43121b588dbf89e2c64b6e70d2119433557f8b6fd46"></script>
+
+    
+    <!-- End of bodyStart -->
+    <div id="main"><div class="framer-erGCk framer-72rtr7" style="min-height: 100vh; width: auto;"><div class="framer-yiig8o-container"><nav class="framer-3dt39 framer-NbOXs framer-ornmyw framer-v-ornmyw" data-framer-name="Desktop" tabindex="0" style="background-color: rgb(255, 255, 255); width: 100%; opacity: 1;"><div class="framer-tu0ufc" data-framer-name="Top" style="opacity: 1;"></div><div class="framer-133mnfw" data-framer-name="Links" style="opacity: 1;"><div class="framer-1vch2z7" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; --extracted-r6o4lv: rgb(102, 102, 102); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"><p class="framer-text" style="--font-selector: SW50ZXItTWVkaXVt; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 15px; --framer-font-weight: 500; --framer-letter-spacing: -0.01em; --framer-line-height: 2em; --framer-text-alignment: center; --framer-text-color: var(--extracted-r6o4lv, rgb(102, 102, 102));"><a class="framer-text framer-styles-preset-lbp199" data-styles-preset="B57WELTS9" href="https://shadedragon-a02-6.framer.website/#visionstatement">Vision Statement</a></p></div><div class="framer-15s0g0b" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; --extracted-r6o4lv: rgb(102, 102, 102); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"><p class="framer-text" style="--font-selector: SW50ZXItTWVkaXVt; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 15px; --framer-font-weight: 500; --framer-letter-spacing: -0.2px; --framer-line-height: 2em; --framer-text-alignment: center; --framer-text-color: var(--extracted-r6o4lv, rgb(102, 102, 102));"><a class="framer-text framer-styles-preset-lbp199" data-styles-preset="B57WELTS9" href="https://shadedragon-a02-6.framer.website/#features">Features</a></p></div><div class="framer-7tlhtx" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; --extracted-r6o4lv: rgb(102, 102, 102); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"><p class="framer-text" style="--font-selector: SW50ZXItTWVkaXVt; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 15px; --framer-font-weight: 500; --framer-letter-spacing: -0.2px; --framer-line-height: 2em; --framer-text-alignment: center; --framer-text-color: var(--extracted-r6o4lv, rgb(102, 102, 102));"><a class="framer-text framer-styles-preset-lbp199" data-styles-preset="B57WELTS9" href="https://shadedragon-a02-6.framer.website/#team">Our Team</a></p></div><div class="framer-1wppxds" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; --extracted-r6o4lv: rgb(102, 102, 102); --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"><p class="framer-text" style="--font-selector: SW50ZXItTWVkaXVt; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 15px; --framer-font-weight: 500; --framer-letter-spacing: -0.2px; --framer-line-height: 2em; --framer-text-alignment: center; --framer-text-color: var(--extracted-r6o4lv, rgb(102, 102, 102));"><a class="framer-text framer-styles-preset-lbp199" data-styles-preset="B57WELTS9" href="https://shadedragon-a02-6.framer.website/#postmortem">Postmortem</a></p></div></div><div class="framer-10reog2" data-framer-name="Bottom Line" style="background-color: rgba(0, 0, 0, 0.08); opacity: 1;"></div></nav></div><div class="framer-1djo8so"><div class="framer-81k0we"><div class="framer-1lkrchp" data-framer-name="Banner" name="Banner"><div class="framer-knaol5" data-framer-name="Background" name="Background"><div data-framer-background-image-wrapper="true" style="position: absolute; border-radius: inherit; inset: 0px;"><img decoding="async" sizes="1492px" srcset="https://framerusercontent.com/images/aGBhAzWgNhjHXlxNYHArEHItfwY.png?scale-down-to=512 512w,https://framerusercontent.com/images/aGBhAzWgNhjHXlxNYHArEHItfwY.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/aGBhAzWgNhjHXlxNYHArEHItfwY.png?scale-down-to=2048 2048w,https://framerusercontent.com/images/aGBhAzWgNhjHXlxNYHArEHItfwY.png 3488w" src="./Skylink_files/aGBhAzWgNhjHXlxNYHArEHItfwY.png" alt="" style="display: block; width: 100%; height: 100%; border-radius: inherit; object-position: center top; object-fit: contain; image-rendering: auto;"></div></div><div class="framer-fw022k" data-framer-name="Image" name="Image"><div class="framer-llx2kf" data-border="true" data-framer-name="Pattern" name="Pattern"></div><div data-framer-component-type="SVG" data-framer-name="Pattern" name="Pattern" class="framer-gq1c7v" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%" viewBox="0 0 42 42" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-1706593561_804"></use></svg></div></div><div class="framer-13o93g0" data-border="true" data-framer-name="Pattern" name="Pattern"></div><div class="framer-zf9jlm" data-framer-name="Icon" name="Icon"><div data-framer-background-image-wrapper="true" style="position: absolute; border-radius: inherit; inset: 0px;"><img decoding="async" sizes="195px" srcset="https://framerusercontent.com/images/wTfJpLshR5CjlR1kQy7GQS6re3A.png?scale-down-to=1024 949w,https://framerusercontent.com/images/wTfJpLshR5CjlR1kQy7GQS6re3A.png 1225w" src="./Skylink_files/wTfJpLshR5CjlR1kQy7GQS6re3A.png" alt="" style="display: block; width: 100%; height: 100%; border-radius: inherit; object-position: center center; object-fit: contain; image-rendering: auto;"></div></div><div class="framer-1kz8jlm" data-framer-name="Icon" name="Icon"><div data-framer-background-image-wrapper="true" style="position: absolute; border-radius: inherit; inset: 0px;"><img decoding="async" sizes="169px" srcset="https://framerusercontent.com/images/1Li4C0Xqiz9oshh06cjzpXt1MVE.png?scale-down-to=512 512w,https://framerusercontent.com/images/1Li4C0Xqiz9oshh06cjzpXt1MVE.png 1000w" src="./Skylink_files/1Li4C0Xqiz9oshh06cjzpXt1MVE.png" alt="" style="display: block; width: 100%; height: 100%; border-radius: inherit; object-position: center center; object-fit: cover; image-rendering: auto;"></div></div><div class="framer-1xkejoo" data-framer-name="Icon" name="Icon" style="transform: rotate(19deg);"><div data-framer-background-image-wrapper="true" style="position: absolute; border-radius: inherit; inset: 0px;"><img decoding="async" loading="lazy" sizes="98px" srcset="https://framerusercontent.com/images/I634LNXfDVtBVmfbOX8l0KwHYwQ.png?scale-down-to=512 512w,https://framerusercontent.com/images/I634LNXfDVtBVmfbOX8l0KwHYwQ.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/I634LNXfDVtBVmfbOX8l0KwHYwQ.png 1500w" src="./Skylink_files/I634LNXfDVtBVmfbOX8l0KwHYwQ.png" alt="" style="display: block; width: 100%; height: 100%; border-radius: inherit; object-position: center center; object-fit: cover; image-rendering: auto;"></div></div><div class="framer-1dishup" data-framer-name="Image" name="Image"></div><div class="framer-rv4sto"></div><div class="framer-1oq5fp6-container"><div height="100%" id="mdvc1pDbc" width="100%" style="background: rgba(0, 0, 0, 0); height: 100%; width: 100%; border-radius: 14px; position: relative; display: flex; justify-content: center; align-items: center; overflow: hidden;"><div class="framer-vimeo" style="width: 100%; height: 100%;" data-vimeo-initialized="true"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="./Skylink_files/929408822.html" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="skylink" data-ready="true"></iframe></div></div></div></div></div><div class="framer-1njvuzc" data-framer-name="Content" name="Content"><div class="framer-djkfuq" data-framer-name="Ready To Launch Your Online Payment App" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7SW50ZXIgVGlnaHQtNjAw; --framer-font-family: &quot;Inter Tight&quot;, &quot;Inter Tight Placeholder&quot;, sans-serif; --framer-font-size: 80px; --framer-font-weight: 600; --framer-line-height: 116.7%; --framer-text-alignment: center; --framer-text-color: rgb(255, 255, 255);">Welcome to Skylink</p></div><div class="framer-ks1wfi" data-framer-name="Ready To Launch Your Online Payment App" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7SW50ZXIgVGlnaHQtNTAw; --framer-font-family: &quot;Inter Tight&quot;, &quot;Inter Tight Placeholder&quot;, sans-serif; --framer-font-size: 40px; --framer-font-weight: 500; --framer-line-height: 56%; --framer-text-alignment: center; --framer-text-color: rgb(255, 255, 255);">Your Personal Flight Concierge</p></div><div class="framer-xqo0h3" data-framer-name="A simple yet modern solution to showcase your app" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7SW50ZXItNTAw; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 21px; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 30.8px; --framer-text-alignment: center; --framer-text-color: rgb(255, 255, 255);">Embark on an unparalleled flight-booking experience with Skylink – the future of travel at your fingertips. Designed for the discerning Canadian traveler, Skylink is more than just an app; it's your personal travel concierge, offering seamless discovery and booking of the perfect flight tailored to your preferences.</p></div></div></div></div><div class="framer-1pcgiqo" data-framer-name="How we Work" name="How we Work"><div class="framer-kv00ev" data-framer-name="Ready To Launch Your Online Payment App" id="features" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7SW50ZXIgVGlnaHQtNjAw; --framer-font-family: &quot;Inter Tight&quot;, &quot;Inter Tight Placeholder&quot;, sans-serif; --framer-font-size: 40px; --framer-font-weight: 600; --framer-line-height: 16.7%; --framer-text-alignment: center; --framer-text-color: rgb(39, 26, 89);">Major Functionality Overview</p></div><div class="framer-k6bzjv" data-framer-name="How We Work" name="How We Work"><div class="framer-1p0csuj" data-framer-name="1" name="1"><div class="framer-15w2dac" data-framer-name="Content" name="Content"><div class="framer-1tfhmt3" data-framer-name="Creat an account" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC01MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 30px; --framer-font-weight: 500; --framer-line-height: 133.2%; --framer-text-color: rgb(35, 22, 86); --framer-text-transform: capitalize;">Profile management</p></div><div class="framer-vvolra" data-framer-name="Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies define their new business" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 18px; --framer-line-height: 160%; --framer-text-alignment: center; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Register or log in to manage travel details and personal information securely.</p><p class="framer-text" style="--framer-text-color: rgb(236, 236, 236);"><br class="framer-text trailing-break"></p></div></div></div><div class="framer-hm2lzy" data-framer-name="2" name="2"><div class="framer-7i9rzk" data-framer-name="Content" name="Content"><div class="framer-1fpertw" data-framer-name="Attach bank accounts" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC01MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 30px; --framer-font-weight: 500; --framer-line-height: 133.2%; --framer-text-color: rgb(35, 22, 86); --framer-text-transform: capitalize;">Flight searching</p></div><div class="framer-1d82pd0" data-framer-name="Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies define their new business" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 18px; --framer-line-height: 160%; --framer-text-alignment: center; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Easily search flights with options for airports, trip type, and passenger details on one screen.</p><ol class="framer-text" style="--framer-text-color: rgb(236, 236, 236); --list-style-type: none;"><li class="framer-text"><p class="framer-text"><br class="framer-text trailing-break"></p></li></ol></div></div></div><div class="framer-n8dkad" data-framer-name="3" name="3"><div class="framer-10bbcyk" data-framer-name="Content" name="Content"><div class="framer-2j5s4r" data-framer-name="Send money" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC01MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 30px; --framer-font-weight: 500; --framer-line-height: 133.2%; --framer-text-color: rgb(35, 22, 86); --framer-text-transform: capitalize;">Flight Display</p></div><div class="framer-1itisi0" data-framer-name="Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies define their new business" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 18px; --framer-line-height: 160%; --framer-text-alignment: center; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">View a sorted list of flights, with clear options for direct/indirect and class accommodations.</p><ol class="framer-text" style="--framer-text-color: rgb(236, 236, 236); --list-style-type: none;"><li class="framer-text"><p class="framer-text"><br class="framer-text trailing-break"></p></li></ol></div></div></div></div><div class="framer-1g36sql" data-framer-name="How We Work" name="How We Work"><div class="framer-4asp1k" data-framer-name="1" name="1"><div class="framer-mry0oi" data-framer-name="Content" name="Content"><div class="framer-1kkobo5" data-framer-name="Creat an account" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC01MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 30px; --framer-font-weight: 500; --framer-line-height: 133.2%; --framer-text-color: rgb(35, 22, 86); --framer-text-transform: capitalize;">Passenger Information</p></div><div class="framer-vnhco0" data-framer-name="Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies define their new business" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 18px; --framer-line-height: 160%; --framer-text-alignment: center; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Input passenger details post-selection through a streamlined, user-friendly form.</p></div></div></div><div class="framer-1y4d0fh" data-framer-name="2" name="2"><div class="framer-ulcuj2" data-framer-name="Content" name="Content"><div class="framer-pnz1ur" data-framer-name="Send money" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC01MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 30px; --framer-font-weight: 500; --framer-line-height: 133.2%; --framer-text-color: rgb(35, 22, 86); --framer-text-transform: capitalize;">Seat Selection</p></div><div class="framer-wj6g92" data-framer-name="Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies define their new business" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 18px; --framer-line-height: 160%; --framer-text-alignment: center; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Choose preferred seats before booking to ensure a journey tailored to your comfort.</p><ol class="framer-text" style="--framer-text-color: rgb(236, 236, 236); --list-style-type: none;"><li class="framer-text"><p class="framer-text"><br class="framer-text trailing-break"></p></li></ol></div></div></div><div class="framer-165sam3" data-framer-name="3" name="3"><div class="framer-1b63232" data-framer-name="Content" name="Content"><div class="framer-cgta2a" data-framer-name="Send money" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC01MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 30px; --framer-font-weight: 500; --framer-line-height: 133.2%; --framer-text-color: rgb(35, 22, 86); --framer-text-transform: capitalize;">Secure Payment</p></div><div class="framer-13fbidm" data-framer-name="Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies define their new business" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 18px; --framer-line-height: 160%; --framer-text-alignment: center; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Complete bookings confidently with our fast and secure payment system.</p></div></div></div></div></div></div><div class="framer-ivyf3x" data-framer-name="Testimonials 2" id="visionstatement" name="Testimonials 2"><div class="framer-zrbjnf" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><h2 class="framer-text" style="--font-selector: R0Y7SW50ZXItNzAw; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 40px; --framer-font-weight: 700; --framer-letter-spacing: -2.1px; --framer-text-alignment: left; --framer-text-color: var(--token-b9c3c957-2c66-49c4-9732-fa196fddac20, rgb(0, 17, 34));">Vision Statement</h2></div><div class="framer-1cqcvhb"><div class="framer-wtggyg" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><h2 class="framer-text" style="--font-selector: R0Y7SW50ZXItNTAw; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 17px; --framer-font-weight: 500; --framer-letter-spacing: -0.7px; --framer-line-height: 1.5em; --framer-text-alignment: left; --framer-text-color: var(--token-1021654d-251a-4750-952b-de3f7005260e, rgb(136, 136, 136));"><span class="framer-text" style="--framer-font-size: 18px;">Our vision is to become Canada's premier flight-booking platform, where travelers can seamlessly discover and book the most tailored flight options, redefining their travel experience. We will create a unique travel experience for every customer by providing an easy and efficient way to manage personal data, real-time flight information, and a comprehensive solution for booking, check-in, and secure payments before and after the flights. Skylink is primarily designed to be used by both frequent and occasional travelers. It will provide every traveler the opportunity to plan their trip by exploring multiple flights and selecting the most suitable ones based on their preferences and requirements. Our platform will allow users to choose and reserve their preferred seats during the booking process for their ease and comfort. We will provide travelers the freedom to explore various filtering options such as date suggestions, one-way or round-trip booking, and price-wise sorting to prioritize their convenience. Our platform provides a straightforward and secure way to manage payments, allowing easy access for account creation, flight plan adjustments, and seamless information updates. With user-friendly navigation, members can effortlessly log in, register, and engage with our services. </span><span class="framer-text" style="--framer-font-size: 18px;"><br class="framer-text"><br class="framer-text"></span><span class="framer-text" style="--framer-font-size: 18px;">Skylink streamlines the journey with an online check-in system, allowing passengers to bypass queues at the airline counter. This system includes a component to generate boarding passes, ensuring a smooth transition from check-in to boarding gates. Enhancing the travel experience further, Skylink keeps travelers informed with a real-time notification system, from booking confirmation to arrival. Passengers can also tailor their journey with various pre-departure options, including in-flight meals, lounge access, priority boarding, and entertainment packages. The value of Skylink lies in its commitment to making air travel accessible, stress-free, and rewarding for all users. By offering a simplified and intuitive interface, users can effortlessly log in, manage their profiles, search for flights, book their journeys, and complete secure payments, all within a single system. The inclusion of a reminder system provides the quickest and most real-time updates that agents might not deliver on time. By utilizing our user-friendly check-in and boarding pass program, users can save valuable time before the trip. </span><span class="framer-text" style="--framer-font-size: 18px;"><br class="framer-text"><br class="framer-text"></span><span class="framer-text" style="--framer-font-size: 18px;">Skylink also enhances user experience by providing innovative seat booking and various add-ons to construct a personalized and memorable trip. The project will be considered successful based on four criteria. Firstly, we aim to win the user’s heart and this will be evident by becoming the top travel app on Google Play Store and reaching one million downloads in our first year. Also, we want to make sure that fewer than 10% of users stop using the app in the first year. Thirdly, a critical achievement is to meet a 90% success rate in providing users with real-time flight updates and notifications for any changes to their booked flights. Lastly, our goal is to attract approximately 40% of Canadian travelers using our system to fulfill their travel needs and ensure their satisfaction.</span></h2></div></div></div><div class="framer-1ypu8xr"><div class="framer-1gfn8v1" data-framer-name="About" name="About"><div data-framer-component-type="SVG" data-framer-name="Line" name="Line" class="framer-nxra3i" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%" viewBox="0 0 1402 3" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg1517363376_160"></use></svg></div></div><div class="framer-1vodr19" data-framer-name="Content" name="Content"><div class="framer-sf6cn9" data-framer-name="Content" name="Content"><div class="framer-1p0y4gv" data-framer-name="Content" name="Content"><div class="framer-w48djm" data-framer-name="Send and receive payments easily" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC02MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 55px; --framer-font-weight: 600; --framer-line-height: 101.2%; --framer-text-color: rgb(180, 180, 180);">Search and <span class="framer-text" style="--framer-text-color: rgb(35, 22, 86);">book flights</span> easily</p></div><div class="framer-zeoz8x" data-framer-name="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 20px; --framer-line-height: 160%; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Introducing our streamlined flight booking feature, making it effortless for users to search and book flights with ease on our website</p></div></div><div data-framer-component-type="SVG" data-framer-name="Line" name="Line" class="framer-z52v45" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%" viewBox="0 0 551 3" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-1578297244_157"></use></svg></div></div></div><div class="framer-1qzovyr" data-framer-name="Counters" name="Counters"><div class="framer-1vijdo1" data-framer-name="Background" name="Background"><div class="framer-1taei32" data-framer-name="Background" name="Background"></div></div><div class="framer-16mksuk" data-framer-name="Counters" name="Counters"><div class="framer-xpw4st" data-framer-name="1" name="1"><div class="framer-1fo8nu2" data-framer-name="12.000 +" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC02MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 40px; --framer-font-weight: 600; --framer-line-height: 101.2%; --framer-text-color: rgb(35, 22, 86);">100k+</p></div><div class="framer-1inhomc" data-framer-name="Downloaded" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 20px; --framer-line-height: 160%; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Downloads</p></div></div><div data-framer-component-type="SVG" data-framer-name="Line" name="Line" class="framer-1rx7zet" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%" viewBox="0 0 3 70" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-72151840_177"></use></svg></div></div><div class="framer-uv2f3j" data-framer-name="2" name="2"><div class="framer-qtn70s" data-framer-name="$10 M" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC02MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 40px; --framer-font-weight: 600; --framer-line-height: 101.2%; --framer-text-color: rgb(35, 22, 86);">2,200+</p></div><div class="framer-1xoame6" data-framer-name="Transactions" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 20px; --framer-line-height: 160%; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Flights Booked</p></div></div><div data-framer-component-type="SVG" data-framer-name="Line" name="Line" class="framer-41rl07" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%" viewBox="0 0 3 70" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-72151840_177"></use></svg></div></div><div class="framer-1r2pydn" data-framer-name="3" name="3"><div class="framer-18gftlx" data-framer-name="1.000 +" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7Sm9zdC02MDA=; --framer-font-family: &quot;Jost&quot;, &quot;Jost Placeholder&quot;, sans-serif; --framer-font-size: 40px; --framer-font-weight: 600; --framer-line-height: 101.2%; --framer-text-color: rgb(35, 22, 86);">4.9</p></div><div class="framer-3u9vc1" data-framer-name="Feedback" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7T3BlbiBTYW5zLXJlZ3VsYXI=; --framer-font-family: &quot;Open Sans&quot;, &quot;Open Sans Placeholder&quot;, sans-serif; --framer-font-size: 20px; --framer-line-height: 160%; --framer-text-color: rgb(77, 77, 77); --framer-text-transform: capitalize;">Rating</p></div></div></div></div></div><div class="framer-zeot26" data-framer-name="Mobile Image" name="Mobile Image"><div class="framer-1jbxcl6" data-framer-name="Background" name="Background"><div data-framer-background-image-wrapper="true" style="position: absolute; border-radius: inherit; inset: 0px;"><img decoding="async" loading="lazy" sizes="703px" srcset="https://framerusercontent.com/images/CvJjfvwVmcVbJQVT0l1yV8cmc.png?scale-down-to=512 512w,https://framerusercontent.com/images/CvJjfvwVmcVbJQVT0l1yV8cmc.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/CvJjfvwVmcVbJQVT0l1yV8cmc.png?scale-down-to=2048 2048w,https://framerusercontent.com/images/CvJjfvwVmcVbJQVT0l1yV8cmc.png 2812w" src="./Skylink_files/CvJjfvwVmcVbJQVT0l1yV8cmc.png" alt="" style="display: block; width: 100%; height: 100%; border-radius: inherit; object-position: center center; object-fit: contain; image-rendering: auto;"></div></div><div class="framer-s5l06z" data-framer-name="Image" name="Image" style="transform: translateX(-50%);"><div data-framer-background-image-wrapper="true" style="position: absolute; border-radius: inherit; inset: 0px;"><img decoding="async" loading="lazy" sizes="617px" srcset="https://framerusercontent.com/images/bIUMT9qekkxy376sSX9OE9NK8k.png?scale-down-to=512 512w,https://framerusercontent.com/images/bIUMT9qekkxy376sSX9OE9NK8k.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/bIUMT9qekkxy376sSX9OE9NK8k.png 1220w" src="./Skylink_files/bIUMT9qekkxy376sSX9OE9NK8k.png" alt="" style="display: block; width: 100%; height: 100%; border-radius: inherit; object-position: center top; object-fit: contain; image-rendering: auto;"></div></div></div></div></div><div class="framer-1aybsxv"><div class="framer-1u47fqb" data-framer-name="team_5" id="team" name="team_5"><div class="framer-8ny2n9" data-framer-name="Title" name="Title"><div class="framer-1m12t7c" data-framer-name="Startup Crew" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy03MDA=; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-font-size: 40px; --framer-font-weight: 700; --framer-letter-spacing: -0.4px; --framer-line-height: 52px; --framer-text-color: rgb(255, 255, 255);">Our Team</p></div></div><div class="framer-1av59ld"><div class="framer-1ydxb5j" data-framer-name="Member 5" name="Member 5"><div class="framer-s7qu5m" data-framer-name="Steven MacAlister" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy01MDA=; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-font-size: 22px; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 32px; --framer-text-alignment: left; --framer-text-color: rgb(255, 255, 255);">Dhairya Kachhia</p></div><div class="framer-qrky2c" data-framer-name="Copyrighter" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy1yZWd1bGFy; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-letter-spacing: 0px; --framer-line-height: 26px; --framer-text-color: rgb(255, 255, 255);">I gained proficiency in testing code, especially by writing integration and system tests.</p></div></div><div class="framer-1cdoe5" data-framer-name="Member 5" name="Member 5"><div class="framer-1opy9e3" data-framer-name="Steven MacAlister" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy01MDA=; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-font-size: 22px; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 32px; --framer-text-alignment: left; --framer-text-color: rgb(255, 255, 255);">Akintunde Mayokun Moses</p></div><div class="framer-61mnuu" data-framer-name="Copyrighter" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy1yZWd1bGFy; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-letter-spacing: 0px; --framer-line-height: 26px; --framer-text-color: rgb(255, 255, 255);">I finally became comfortable with Git especially while working with Team.&nbsp;</p></div></div><div class="framer-mhay89" data-framer-name="Member 5" name="Member 5"><div class="framer-x1bzfq" data-framer-name="Steven MacAlister" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy01MDA=; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-font-size: 22px; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 32px; --framer-text-alignment: left; --framer-text-color: rgb(255, 255, 255);">Yiming Zang</p></div><div class="framer-kozo8w" data-framer-name="Copyrighter" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy1yZWd1bGFy; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-letter-spacing: 0px; --framer-line-height: 26px; --framer-text-color: rgb(255, 255, 255);">My documentation skills and project management skills improved a lot throughout this course.</p></div></div><div class="framer-ejnb4l" data-framer-name="Member 5" name="Member 5"><div class="framer-1jl28l4" data-framer-name="Steven MacAlister" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy01MDA=; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-font-size: 22px; --framer-font-weight: 500; --framer-letter-spacing: 0px; --framer-line-height: 32px; --framer-text-alignment: left; --framer-text-color: rgb(255, 255, 255);">Dilawer Hussain</p></div><div class="framer-plklxf" data-framer-name="Copyrighter" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy1yZWd1bGFy; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-letter-spacing: 0px; --framer-line-height: 26px; --framer-text-color: rgb(255, 255, 255);">I became more proficient in writing tests and applying Design Patterns.</p></div></div></div></div></div><div class="framer-1jh52mt" data-framer-name="FAQ" id="postmortem" name="FAQ"><div class="framer-a1tilk" data-framer-name="Startup Crew" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; transform: none;"><p class="framer-text" style="--font-selector: R0Y7RE0gU2Fucy03MDA=; --framer-font-family: &quot;DM Sans&quot;, &quot;DM Sans Placeholder&quot;, sans-serif; --framer-font-size: 40px; --framer-font-weight: 700; --framer-letter-spacing: -0.4px; --framer-line-height: 52px; --framer-text-color: rgb(35, 22, 86);">Postmortem</p></div><div class="framer-z22z5v" data-framer-name="Column" name="Column"><div class="framer-pp65az-container"><div class="framer-yZjgh framer-iis6z0 framer-v-iis6z0" data-framer-name="Variant 1" tabindex="0" style="background-color: var(--token-40c03004-286a-43c1-b36f-58b60663152c, rgb(242, 242, 242)); width: 100%; border-radius: 20px; opacity: 1;"><div class="framer-1pynmec-container" style="opacity: 1;"><div class="framer-RRhPO framer-6akvaz framer-v-6akvaz" data-framer-name="Closed" tabindex="0" style="width: 100%; opacity: 1;"><div class="framer-ex00mh" data-framer-name="Question" data-highlight="true" tabindex="0" style="opacity: 1;"><div class="framer-1vitx6" data-framer-name="Plus" style="opacity: 0.3; transform: none;"><div class="framer-q0v6a" style="background-color: rgb(0, 0, 0); border-radius: 10px; opacity: 1;"></div><div class="framer-1hljuv3" style="background-color: rgb(0, 0, 0); border-radius: 10px; opacity: 1;"></div></div><div class="framer-1ak0htn" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; --extracted-r6o4lv: rgb(51, 51, 51); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"><p class="framer-text" style="--font-selector: R0Y7SW50ZXItNjAw; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 20px; --framer-font-weight: 600; --framer-letter-spacing: 0px; --framer-line-height: 1.5em; --framer-text-alignment: left; --framer-text-color: var(--extracted-r6o4lv, rgb(51, 51, 51));">How did the project change from your initial (iteration 0) vision or stories, or did it work out as predicted?</p></div></div></div></div><div class="framer-1y5pvrd" data-framer-name="Line" style="background-color: rgba(0, 0, 0, 0.05); opacity: 1;"></div><div class="framer-eg0vf2-container" style="opacity: 1;"><div class="framer-RRhPO framer-6akvaz framer-v-6akvaz" data-framer-name="Closed" tabindex="0" style="width: 100%; opacity: 1;"><div class="framer-ex00mh" data-framer-name="Question" data-highlight="true" tabindex="0" style="opacity: 1;"><div class="framer-1vitx6" data-framer-name="Plus" style="opacity: 0.3; transform: none;"><div class="framer-q0v6a" style="background-color: rgb(0, 0, 0); border-radius: 10px; opacity: 1;"></div><div class="framer-1hljuv3" style="background-color: rgb(0, 0, 0); border-radius: 10px; opacity: 1;"></div></div><div class="framer-1ak0htn" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; --extracted-r6o4lv: rgb(51, 51, 51); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"><p class="framer-text" style="--font-selector: R0Y7SW50ZXItNjAw; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 20px; --framer-font-weight: 600; --framer-letter-spacing: 0px; --framer-line-height: 1.5em; --framer-text-alignment: left; --framer-text-color: var(--extracted-r6o4lv, rgb(51, 51, 51));">Are you using any technologies other than what was required (e.g. JMock, GUI builders, etc.)? </p></div></div></div></div><div class="framer-1gpsei1" data-framer-name="Line" style="background-color: rgba(0, 0, 0, 0.05); opacity: 1;"></div><div class="framer-oenusu-container" style="opacity: 1;"><div class="framer-RRhPO framer-6akvaz framer-v-6akvaz" data-framer-name="Closed" tabindex="0" style="width: 100%; opacity: 1;"><div class="framer-ex00mh" data-framer-name="Question" data-highlight="true" tabindex="0" style="opacity: 1;"><div class="framer-1vitx6" data-framer-name="Plus" style="opacity: 0.3; transform: none;"><div class="framer-q0v6a" style="background-color: rgb(0, 0, 0); border-radius: 10px; opacity: 1;"></div><div class="framer-1hljuv3" style="background-color: rgb(0, 0, 0); border-radius: 10px; opacity: 1;"></div></div><div class="framer-1ak0htn" data-framer-component-type="RichTextContainer" style="outline: none; display: flex; flex-direction: column; justify-content: flex-start; flex-shrink: 0; --extracted-r6o4lv: rgb(51, 51, 51); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; --framer-paragraph-spacing: 0px; transform: none; opacity: 1;"><p class="framer-text" style="--font-selector: R0Y7SW50ZXItNjAw; --framer-font-family: &quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif; --framer-font-size: 20px; --framer-font-weight: 600; --framer-letter-spacing: 0px; --framer-line-height: 1.5em; --framer-text-alignment: left; --framer-text-color: var(--extracted-r6o4lv, rgb(51, 51, 51));">What did you learn about team or large project development? What will you start doing, keep doing, or stop doing next time?</p></div></div></div></div></div></div></div></div></div><div class="framer-erGCk" id="overlay"></div></div>
+    
+    <div id="__framer-badge-container"><div class="__framer-badge" style="opacity: 1; transform: none;"><div data-framer-generated="true" class="framer-Gxp3N framer-v-n0ccwk" tabindex="0" style="display: contents;"><a href="https://framer.com/" title="Custom website builder for designers, agencies and startups."><div class="framer-n0ccwk" data-framer-name="Light" style="--border-bottom-width: 0px; --border-color: rgba(0, 0, 0, 0); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: rgb(255, 255, 255); border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.26) 0px 0.637473px 1.14745px -1.125px, rgba(0, 0, 0, 0.24) 0px 1.93094px 3.4757px -2.25px, rgba(0, 0, 0, 0.192) 0px 5.10423px 9.18761px -3.375px, rgba(0, 0, 0, 0.03) 0px 16px 28.8px -4.5px; cursor: pointer; opacity: 1;"><div class="framer-19yaanm" style="transform: translate(-50%, -50%); opacity: 1;"><div data-framer-component-type="SVG" data-framer-name="madeinframer" radius="0" tabindex="2" class="framer-tmnpxq" style="image-rendering: pixelated; flex-shrink: 0; background-size: 100% 100%; background-image: url(&quot;data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2011%2016%22%3E%3Cpath%20d%3D%22M%2011%200%20L%2011%205.333%20L%205.5%205.333%20L%200%200%20Z%20M%200%205.333%20L%205.5%205.333%20L%2011%2010.667%20L%205.5%2010.667%20L%205.5%2016%20L%200%2010.667%20Z%22%20fill%3D%22rgb(34%2C34%2C34)%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E&quot;); opacity: 1;"></div><div data-framer-component-type="SVG" radius="0" class="framer-1v3cvgh" role="img" aria-label="Custom site builder" aria-description="The professional custom website design builder for startups, designers and agencies." style="image-rendering: pixelated; flex-shrink: 0; background-size: 100% 100%; background-image: url(&quot;data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2092%2011%22%3E%3Cpath%20d%3D%22M%200%200.958%20L%202.393%200.958%20L%204.92%207.255%20L%205.028%207.255%20L%207.555%200.958%20L%209.941%200.958%20L%209.941%2010.331%20L%208.066%2010.331%20L%208.066%204.232%20L%207.988%204.232%20L%205.614%2010.286%20L%204.332%2010.286%20L%201.958%204.209%20L%201.882%204.209%20L%201.882%2010.331%20L%200%2010.331%20Z%20M%2013.279%2010.463%20C%2012.874%2010.472%2012.472%2010.392%2012.1%2010.228%20C%2011.769%2010.08%2011.487%209.837%2011.289%209.529%20C%2011.08%209.181%2010.977%208.777%2010.991%208.369%20C%2010.981%208.028%2011.053%207.69%2011.202%207.384%20C%2011.337%207.125%2011.535%206.905%2011.776%206.744%20C%2012.03%206.576%2012.309%206.452%2012.602%206.378%20C%2012.922%206.293%2013.248%206.236%2013.578%206.206%20C%2013.977%206.163%2014.3%206.121%2014.545%206.083%20C%2014.732%206.065%2014.913%206.006%2015.077%205.911%20C%2015.19%205.836%2015.254%205.704%2015.246%205.567%20L%2015.246%205.54%20C%2015.26%205.286%2015.163%205.039%2014.979%204.867%20C%2014.764%204.696%2014.495%204.611%2014.223%204.629%20C%2013.933%204.614%2013.646%204.695%2013.404%204.86%20C%2013.21%205.001%2013.067%205.205%2013%205.438%20L%2011.235%205.292%20C%2011.317%204.882%2011.499%204.5%2011.765%204.182%20C%2012.038%203.859%2012.385%203.611%2012.776%203.459%20C%2013.239%203.282%2013.73%203.196%2014.225%203.206%20C%2014.599%203.206%2014.971%203.254%2015.333%203.349%20C%2015.668%203.433%2015.984%203.577%2016.268%203.776%20C%2016.54%203.964%2016.763%204.218%2016.917%204.514%20C%2017.083%204.846%2017.165%205.214%2017.156%205.586%20L%2017.156%2010.331%20L%2015.345%2010.331%20L%2015.345%209.357%20L%2015.291%209.357%20C%2015.181%209.577%2015.031%209.773%2014.848%209.935%20C%2014.65%2010.108%2014.421%2010.241%2014.174%2010.324%20C%2013.886%2010.421%2013.583%2010.468%2013.279%2010.463%20Z%20M%2013.827%209.119%20C%2014.085%209.124%2014.34%209.065%2014.57%208.947%20C%2014.776%208.841%2014.951%208.681%2015.076%208.482%20C%2015.199%208.286%2015.263%208.057%2015.261%207.823%20L%2015.261%207.073%20C%2015.184%207.12%2015.102%207.156%2015.017%207.181%20C%2014.914%207.212%2014.798%207.242%2014.669%207.267%20C%2014.541%207.293%2014.412%207.316%2014.284%207.336%20L%2013.935%207.39%20C%2013.733%207.416%2013.535%207.47%2013.347%207.55%20C%2013.194%207.611%2013.06%207.713%2012.958%207.844%20C%2012.862%207.977%2012.814%208.139%2012.819%208.303%20C%2012.806%208.542%2012.913%208.771%2013.102%208.911%20C%2013.317%209.056%2013.57%209.129%2013.827%209.119%20Z%20M%2020.986%2010.446%20C%2020.484%2010.453%2019.991%2010.308%2019.568%2010.031%20C%2019.122%209.733%2018.771%209.308%2018.557%208.809%20C%2018.297%208.183%2018.175%207.505%2018.198%206.825%20C%2018.175%206.134%2018.305%205.447%2018.579%204.815%20C%2018.795%204.322%2019.146%203.904%2019.59%203.61%20C%2020.007%203.345%2020.49%203.207%2020.981%203.211%20C%2021.314%203.199%2021.645%203.267%2021.947%203.409%20C%2022.189%203.526%2022.405%203.695%2022.579%203.903%20C%2022.725%204.079%2022.848%204.274%2022.944%204.483%20L%2023.003%204.483%20L%2023.003%200.958%20L%2024.907%200.958%20L%2024.907%2010.331%20L%2023.02%2010.331%20L%2023.02%209.2%20L%2022.939%209.2%20C%2022.84%209.41%2022.713%209.606%2022.562%209.78%20C%2022.385%209.98%2022.17%2010.141%2021.93%2010.253%20C%2021.633%2010.388%2021.311%2010.454%2020.986%2010.446%20Z%20M%2021.591%208.897%20C%2021.873%208.906%2022.149%208.814%2022.373%208.639%20C%2022.599%208.448%2022.769%208.197%2022.865%207.915%20C%2022.985%207.563%2023.042%207.192%2023.034%206.82%20C%2023.043%206.449%2022.985%206.08%2022.865%205.731%20C%2022.771%205.45%2022.6%205.202%2022.373%205.016%20C%2022.147%204.845%2021.871%204.757%2021.59%204.765%20C%2021.303%204.755%2021.023%204.848%2020.796%205.027%20C%2020.57%205.216%2020.401%205.467%2020.307%205.75%20C%2020.191%206.094%2020.134%206.456%2020.139%206.82%20C%2020.132%207.188%2020.189%207.555%2020.307%207.903%20C%2020.4%208.188%2020.569%208.442%2020.794%208.636%20C%2021.022%208.814%2021.304%208.905%2021.591%208.894%20Z%20M%2029.413%2010.469%20C%2028.777%2010.487%2028.148%2010.334%2027.588%2010.026%20C%2027.082%209.738%2026.671%209.302%2026.409%208.773%20C%2026.121%208.176%2025.979%207.515%2025.996%206.849%20C%2025.981%206.19%2026.123%205.536%2026.409%204.944%20C%2026.669%204.414%2027.073%203.971%2027.571%203.667%20C%2028.107%203.353%2028.717%203.195%2029.334%203.211%20C%2029.767%203.208%2030.197%203.282%2030.604%203.431%20C%2030.99%203.576%2031.342%203.803%2031.636%204.097%20C%2031.941%204.414%2032.176%204.794%2032.323%205.213%20C%2032.496%205.716%2032.579%206.247%2032.569%206.78%20L%2032.569%207.316%20L%2026.761%207.316%20L%2026.761%206.102%20L%2030.776%206.102%20C%2030.781%205.842%2030.719%205.584%2030.596%205.355%20C%2030.48%205.141%2030.31%204.962%2030.102%204.839%20C%2029.878%204.712%2029.625%204.648%2029.369%204.653%20C%2029.1%204.648%2028.834%204.719%2028.601%204.858%20C%2028.383%204.989%2028.202%205.177%2028.079%205.402%20C%2027.952%205.633%2027.885%205.894%2027.885%206.159%20L%2027.885%207.309%20C%2027.877%207.62%2027.942%207.929%2028.075%208.209%20C%2028.195%208.454%2028.383%208.658%2028.616%208.796%20C%2028.87%208.938%2029.156%209.009%2029.445%209%20C%2029.643%209.003%2029.84%208.972%2030.028%208.909%20C%2030.197%208.853%2030.351%208.76%2030.48%208.636%20C%2030.607%208.51%2030.705%208.357%2030.766%208.186%20L%2032.532%208.305%20C%2032.449%208.725%2032.261%209.116%2031.984%209.438%20C%2031.692%209.772%2031.326%2010.03%2030.916%2010.19%20C%2030.437%2010.38%2029.927%2010.474%2029.413%2010.469%20Z%20M%2037.324%202.395%20C%2037.053%202.401%2036.791%202.296%2036.596%202.104%20C%2036.404%201.929%2036.295%201.679%2036.295%201.416%20C%2036.295%201.153%2036.404%200.903%2036.596%200.728%20C%2037.007%200.34%2037.641%200.34%2038.052%200.728%20C%2038.245%200.902%2038.355%201.153%2038.355%201.416%20C%2038.358%201.682%2038.247%201.937%2038.052%202.113%20C%2037.856%202.303%2037.594%202.404%2037.324%202.395%20Z%20M%2036.365%2010.331%20L%2036.365%203.302%20L%2038.274%203.302%20L%2038.274%2010.331%20Z%20M%2041.516%206.274%20L%2041.516%2010.331%20L%2039.609%2010.331%20L%2039.609%203.302%20L%2041.427%203.302%20L%2041.427%204.541%20L%2041.508%204.541%20C%2041.655%204.142%2041.923%203.801%2042.275%203.569%20C%2042.665%203.321%2043.119%203.197%2043.579%203.211%20C%2044.016%203.2%2044.448%203.311%2044.829%203.531%20C%2045.186%203.747%2045.474%204.064%2045.658%204.443%20C%2045.864%204.883%2045.965%205.367%2045.953%205.855%20L%2045.953%2010.329%20L%2044.045%2010.329%20L%2044.045%206.199%20C%2044.068%205.832%2043.952%205.47%2043.722%205.189%20C%2043.487%204.939%2043.158%204.807%2042.82%204.825%20C%2042.585%204.822%2042.353%204.882%2042.146%204.997%20C%2041.949%205.111%2041.79%205.283%2041.688%205.49%20C%2041.572%205.734%2041.513%206.003%2041.516%206.274%20Z%20M%2050.044%2010.331%20L%2050.044%200.958%20L%2056.11%200.958%20L%2056.11%202.592%20L%2051.978%202.592%20L%2051.978%204.829%20L%2055.711%204.829%20L%2055.711%206.462%20L%2051.978%206.462%20L%2051.978%2010.334%20Z%20M%2057.077%2010.331%20L%2057.077%203.302%20L%2058.931%203.302%20L%2058.931%204.528%20L%2059.001%204.528%20C%2059.099%204.136%2059.321%203.788%2059.633%203.538%20C%2059.927%203.311%2060.287%203.19%2060.656%203.194%20C%2060.759%203.195%2060.862%203.201%2060.964%203.213%20C%2061.062%203.223%2061.16%203.24%2061.256%203.263%20L%2061.256%204.999%20C%2061.134%204.965%2061.009%204.941%2060.883%204.927%20C%2060.739%204.906%2060.594%204.895%2060.449%204.894%20C%2060.187%204.889%2059.929%204.953%2059.699%205.08%20C%2059.482%205.2%2059.302%205.379%2059.178%205.596%20C%2059.049%205.827%2058.983%206.089%2058.988%206.355%20L%2058.988%2010.331%20Z%20M%2063.814%2010.463%20C%2063.408%2010.472%2063.006%2010.392%2062.634%2010.228%20C%2062.302%2010.081%2062.019%209.838%2061.82%209.529%20C%2061.611%209.181%2061.507%208.777%2061.522%208.369%20C%2061.512%208.028%2061.584%207.69%2061.733%207.384%20C%2061.868%207.125%2062.066%206.905%2062.307%206.744%20C%2062.561%206.576%2062.84%206.452%2063.133%206.378%20C%2063.453%206.294%2063.779%206.236%2064.108%206.206%20C%2064.508%206.163%2064.831%206.121%2065.076%206.083%20C%2065.263%206.064%2065.445%206.006%2065.61%205.911%20C%2065.722%205.836%2065.787%205.704%2065.778%205.567%20L%2065.778%205.54%20C%2065.794%205.286%2065.696%205.038%2065.512%204.867%20C%2065.298%204.696%2065.03%204.611%2064.759%204.629%20C%2064.468%204.613%2064.18%204.694%2063.938%204.86%20C%2063.744%205.001%2063.601%205.204%2063.534%205.438%20L%2061.77%205.292%20C%2061.851%204.882%2062.032%204.5%2062.297%204.182%20C%2062.574%203.859%2062.925%203.611%2063.318%203.459%20C%2063.781%203.282%2064.273%203.196%2064.767%203.206%20C%2065.138%203.204%2065.508%203.25%2065.868%203.342%20C%2066.202%203.426%2066.519%203.571%2066.804%203.769%20C%2067.075%203.958%2067.297%204.211%2067.452%204.507%20C%2067.617%204.84%2067.698%205.211%2067.687%205.584%20L%2067.687%2010.331%20L%2065.883%2010.331%20L%2065.883%209.357%20L%2065.829%209.357%20C%2065.717%209.578%2065.563%209.774%2065.377%209.935%20C%2065.18%2010.108%2064.951%2010.241%2064.703%2010.324%20C%2064.416%2010.42%2064.116%2010.467%2063.814%2010.463%20Z%20M%2064.366%209.119%20C%2064.624%209.124%2064.879%209.065%2065.109%208.947%20C%2065.316%208.841%2065.49%208.681%2065.615%208.482%20C%2065.736%208.285%2065.799%208.056%2065.795%207.823%20L%2065.795%207.073%20C%2065.719%207.12%2065.637%207.156%2065.551%207.181%20C%2065.446%207.212%2065.332%207.242%2065.204%207.267%20C%2065.076%207.293%2064.946%207.316%2064.818%207.336%20L%2064.467%207.39%20C%2064.266%207.417%2064.069%207.47%2063.881%207.55%20C%2063.728%207.611%2063.594%207.712%2063.492%207.844%20C%2063.396%207.977%2063.347%208.139%2063.352%208.303%20C%2063.339%208.542%2063.446%208.772%2063.637%208.911%20C%2063.852%209.058%2064.108%209.13%2064.366%209.119%20Z%20M%2068.985%2010.331%20L%2068.985%203.302%20L%2070.803%203.302%20L%2070.803%204.541%20L%2070.884%204.541%20C%2071.015%204.147%2071.266%203.805%2071.602%203.567%20C%2072.336%203.091%2073.273%203.091%2074.008%203.567%20C%2074.335%203.801%2074.57%204.145%2074.672%204.54%20L%2074.742%204.54%20C%2074.882%204.138%2075.151%203.797%2075.506%203.572%20C%2075.898%203.323%2076.354%203.197%2076.817%203.209%20C%2077.401%203.186%2077.968%203.412%2078.384%203.832%20C%2078.785%204.25%2078.985%204.84%2078.985%205.602%20L%2078.985%2010.331%20L%2077.081%2010.331%20L%2077.081%205.989%20C%2077.106%205.665%2076.995%205.345%2076.776%205.109%20C%2076.57%204.913%2076.296%204.808%2076.015%204.817%20C%2075.709%204.799%2075.412%204.922%2075.204%205.152%20C%2075.001%205.4%2074.897%205.716%2074.913%206.039%20L%2074.913%2010.331%20L%2073.059%2010.331%20L%2073.059%205.947%20C%2073.075%205.644%2072.971%205.347%2072.771%205.123%20C%2072.571%204.916%2072.295%204.805%2072.011%204.817%20C%2071.81%204.813%2071.612%204.87%2071.442%204.979%20C%2071.269%205.09%2071.13%205.247%2071.039%205.433%20C%2070.935%205.647%2070.884%205.883%2070.891%206.121%20L%2070.891%2010.331%20Z%20M%2083.439%2010.469%20C%2082.802%2010.487%2082.173%2010.334%2081.612%2010.026%20C%2081.106%209.737%2080.695%209.301%2080.433%208.773%20C%2080.146%208.175%2080.005%207.515%2080.021%206.849%20C%2080.007%206.19%2080.148%205.536%2080.433%204.944%20C%2080.693%204.414%2081.097%203.971%2081.595%203.667%20C%2082.131%203.353%2082.742%203.196%2083.359%203.211%20C%2083.792%203.208%2084.222%203.282%2084.63%203.431%20C%2085.016%203.576%2085.368%203.803%2085.661%204.097%20C%2085.967%204.413%2086.201%204.794%2086.347%205.213%20C%2086.521%205.716%2086.605%206.247%2086.595%206.78%20L%2086.595%207.316%20L%2080.786%207.316%20L%2080.786%206.102%20L%2084.802%206.102%20C%2084.806%205.842%2084.744%205.584%2084.621%205.355%20C%2084.506%205.14%2084.334%204.962%2084.126%204.839%20C%2083.902%204.712%2083.649%204.647%2083.393%204.653%20C%2083.124%204.648%2082.859%204.719%2082.626%204.858%20C%2082.408%204.988%2082.227%205.176%2082.104%205.402%20C%2081.977%205.633%2081.91%205.894%2081.91%206.159%20L%2081.91%207.309%20C%2081.903%207.62%2081.968%207.929%2082.101%208.209%20C%2082.22%208.455%2082.409%208.659%2082.642%208.796%20C%2082.895%208.938%2083.181%209.009%2083.471%209%20C%2083.668%209.003%2083.865%208.973%2084.052%208.909%20C%2084.221%208.853%2084.376%208.76%2084.505%208.636%20C%2084.633%208.51%2084.73%208.356%2084.792%208.186%20L%2086.558%208.305%20C%2086.474%208.725%2086.285%209.116%2086.008%209.438%20C%2085.716%209.772%2085.351%2010.029%2084.942%2010.19%20C%2084.463%2010.38%2083.952%2010.474%2083.439%2010.469%20Z%20M%2087.654%2010.331%20L%2087.654%203.302%20L%2089.508%203.302%20L%2089.508%204.528%20L%2089.58%204.528%20C%2089.677%204.136%2089.899%203.787%2090.211%203.538%20C%2090.505%203.311%2090.865%203.19%2091.233%203.194%20C%2091.336%203.195%2091.439%203.201%2091.542%203.213%20C%2091.64%203.223%2091.737%203.24%2091.833%203.263%20L%2091.833%204.999%20C%2091.711%204.965%2091.587%204.941%2091.461%204.927%20C%2091.317%204.906%2091.173%204.895%2091.028%204.894%20C%2090.766%204.889%2090.507%204.953%2090.276%205.08%20C%2090.06%205.201%2089.88%205.379%2089.756%205.596%20C%2089.626%205.827%2089.56%206.089%2089.565%206.355%20L%2089.565%2010.331%20Z%22%20fill%3D%22rgb(35%2C31%2C32)%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E&quot;); opacity: 1;"></div></div></div></a></div></div></div>
+    <script data-framer-appear-animation="no-preference"></script>
+    <script type="module" data-framer-bundle="">
+        import * as React from "react"
+        import * as ReactDOM from "react-dom/client"
+        import * as Framer from "framer"
+
+        window.__framer_importFromPackage = (packageAndFilename, exportIdentifier) => () => {
+            return React.createElement(Framer.ErrorPlaceholder, { error: 'Package component not supported: "' + exportIdentifier + '" in "' + packageAndFilename + '"' })
+        }
+
+        // A lot of libraries assume process.env.NODE_ENV is present in runtime/buildtime, so we are polyfilling it
+        window.process = {
+            ...window.process,
+            env: {
+                ...(window.process ? window.process.env: undefined),
+                NODE_ENV: "production"
+            }
+        }
+
+        // Fallback support for stack gaps
+        Framer.installFlexboxGapWorkaroundIfNeeded()
+
+        window.__framer_events = window.__framer_events || []
+        function track() {
+            window.__framer_events.push(arguments)
+        }
+
+        ;(async () => {
+            const routes = {augiA20Il: {elements: {By59txuSj: "postmortem", sPwbvtP6D: "team", ubsCFa8OD: "visionstatement", wXfpZ5_53: "features"}, page: Framer.lazy(() => import("https://framerusercontent.com/modules/rn1MQB8CrAN5URxJhdjq/o61mZKUzK4AXX4jiI1xQ/augiA20Il.js")), path: "/"}}
+            const collectionUtils = {}
+            const locales = [{code: "en-CA", id: "default", name: "English", slug: ""}]
+            const notFoundPage = Framer.lazy(() => import("__framer-not-found-page"))
+            const container = document.getElementById("main")
+
+            let routeId, localeId, pathVariables, shouldHydrate = false
+            if ("framerHydrateV2" in container.dataset) {
+                const routeData = JSON.parse(container.dataset.framerHydrateV2)
+                routeId = routeData.routeId
+                localeId = routeData.localeId
+                pathVariables = routeData.pathVariables
+                shouldHydrate = true
+            } else {
+                const routeData = Framer.inferInitialRouteFromPath(routes, decodeURIComponent(location.pathname), true, locales)
+                routeId = routeData.routeId
+                localeId = routeData.localeId
+                pathVariables = routeData.pathVariables
+            }
+
+            const route = routes[routeId]
+            const RootComponent = await route.page.preload()
+            routes[routeId].page = RootComponent
+
+            const content = React.createElement(
+                Framer.PageRoot,
+                {
+                    RootComponent,
+                    isWebsite: true,
+                    routeId,
+                    pathVariables,
+                    routes,
+                    collectionUtils,
+                    notFoundPage,
+                    isReducedMotion: undefined,
+                    localeId,
+                    locales,
+                    preserveQueryParams: undefined,
+                    enableSuspenseThatPreservesDom: true,
+                    shouldMarkHydrationEnd: shouldHydrate,
+                }
+            )
+
+            const contentWithFeaturesContext = React.createElement(
+                Framer.LibraryFeaturesProvider,
+                {
+                    children: content,
+                    value: {imgSizesWorkaroundEnabled: false}
+                }
+            )
+
+
+            const page = React.createElement(Framer.PageEffectsProvider, {
+                children: contentWithFeaturesContext,
+                value: {routes: {}}
+            })
+
+            if (shouldHydrate) {
+                React.startTransition(() => {
+                    performance.mark("framer-hydration-start")
+                    ReactDOM.hydrateRoot(container, page)
+                })
+            } else {
+                ReactDOM.createRoot(container).render(page)
+            }
+        })().catch(error => {
+            track("published_site_load_error", {
+                message: String(error),
+                stack: error instanceof Error && typeof error.stack === "string" ? error.stack : null
+            })
+            throw error
+        })
+
+        
+        ;(async () => {
+            const { default: Badge } = await import("__framer-badge")
+            const ContainerWithStyleAppearEffect = Framer.withStyleAppearEffect(Framer.Container)
+            React.startTransition(() => {
+                ReactDOM.createRoot(document.getElementById("__framer-badge-container"))
+                    .render(React.createElement(ContainerWithStyleAppearEffect, {
+                        className: "__framer-badge",
+                        __framer__threshold: 0.5,
+                        __framer__animateOnce: true,
+                        __framer__opacity: 0,
+                        __framer__targetOpacity: 1,
+                        __framer__rotate: 0,
+                        __framer__x: 0,
+                        __framer__y: 10,
+                        __framer__scale: 1,
+                        __framer__transition: {
+                            "type": "spring",
+                            "ease": [0.44, 0, 0.56, 1],
+                            "duration": 0.3,
+                            "delay": 1,
+                            "stiffness": 350,
+                            "damping": 40,
+                            "mass": 1.5
+                        },
+                        __framer__rotateX: 0,
+                        __framer__rotateY: 0,
+                        __framer__perspective: 1200,
+                    }, React.createElement(Badge)))
+                })
+        })()
+    </script>
+    
+    <!-- End of bodyEnd -->
+
+
+<div id="svg-templates" style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px; overflow: hidden;"><div id="container_svg-1706593561_804"><svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg-1706593561_804">
+<path d="M22.4266 9.24468L23.6147 12.9012C24.2171 14.7553 25.9449 16.0106 27.8944 16.0106H31.7391C33.1922 16.0106 33.7964 17.8701 32.6208 18.7242L29.5104 20.984C27.9332 22.1299 27.2732 24.1611 27.8757 26.0152L29.0637 29.6717C29.5128 31.0537 27.931 32.2029 26.7555 31.3488L23.645 29.0889C22.0678 27.943 19.9322 27.943 18.355 29.0889L15.2445 31.3488C14.069 32.2029 12.4872 31.0537 12.9363 29.6717L14.1243 26.0152C14.7268 24.1611 14.0668 22.1299 12.4896 20.984L9.37919 18.7242C8.20362 17.8701 8.80778 16.0106 10.2609 16.0106H14.1056C16.0551 16.0106 17.7829 14.7553 18.3853 12.9012L19.5734 9.24468C20.0224 7.86271 21.9776 7.86272 22.4266 9.24468Z" stroke="#FFB0B0" stroke-opacity="0.5" stroke-width="3"></path>
+</svg></div><div id="container_svg1517363376_160"><svg width="1402" height="3" viewBox="-1 -1 1402 3" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg1517363376_160">
+<line y1="0.5" x2="1400" y2="0.5" stroke="#E6E6E6"></line>
+</svg></div><div id="container_svg-1578297244_157"><svg width="551" height="3" viewBox="-1 -1 551 3" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg-1578297244_157">
+<line y1="0.5" x2="549" y2="0.5" stroke="#D8D8D8"></line>
+</svg></div><div id="container_svg-72151840_177"><svg width="3" height="70" viewBox="-1 -1 3 70" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg-72151840_177">
+<line x1="0.5" y1="68" x2="0.500003" y2="-2.18557e-08" stroke="#D8D8D8"></line>
+</svg></div></div></body></html>
