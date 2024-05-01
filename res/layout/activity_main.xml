@@ -1,0 +1,230 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.FlightSearching.FlightSearchP">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E5E4DF"
+        tools:context="com.example.skylink.presentation.FlightSearching.FlightSearchP">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/lavender"
+            android:minHeight="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/menu" />
+
+        <!-- Floating Card Container -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" >
+            >
+
+            <!-- Wrapper for the inputs to provide vertical stacking -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0dp"
+                    android:paddingBottom="10dp"
+                    android:text="Search flights..."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:textFontWeight="600"
+                    android:textSize="20dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout_from"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/flying_from"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/autoComplete_from"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Flying To Input -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout_to"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textInputLayout_from"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/flying_to"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textInputLayout_from">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/autoComplete_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <Button
+                    android:id="@+id/swapBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Swap"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupTripType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="16dp">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonOneWay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="One Way"
+                        android:checked="true"
+                        android:buttonTint="#EBBE65" /> <!-- Replace with your accent color -->
+
+                    <RadioButton
+                        android:id="@+id/radioButtonRoundTrip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Round Trip"
+                        android:buttonTint="#EBBE65"  /> <!-- Replace with your accent color -->
+                </RadioGroup>
+
+                <!-- Departure Date EditText -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout_departure"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="Departure">
+
+                    <EditText
+                        android:id="@+id/et_departure"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:focusable="false"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Return Date EditText -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout_return"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:hint="Return">
+
+                    <EditText
+                        android:id="@+id/et_return"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:focusable="false"
+                        android:drawablePadding="10dp"
+                        android:padding="10dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_travelerCounter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="@id/textInputLayout_return">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_decrement"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="-"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_travelerCount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="1 Passenger"
+                        android:textSize="20sp"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_increment"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="+"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/searchBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Search Flights"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/menu_header"
+        app:menu="@menu/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

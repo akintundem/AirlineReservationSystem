@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+    <!--    {orig, flyPath(art), dest} -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingVertical="10dp"
+            android:baselineAligned="false">
+    <!--        android:layout_margin="10dp"-->
+
+            <!--        origAptCode, takeoffTime -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="0.4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/orgCodeTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="YWG"
+                    android:textSize="34sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/takeoffTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="11:00"
+                    android:textSize="45sp"
+                    android:layout_marginBottom="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <!--        planeIcon, line -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/midCodeTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="YUR"
+                    android:textSize="25sp"
+                    android:gravity="center_horizontal">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+
+                    <View
+                        android:layout_width="450dp"
+                        android:layout_height="4dp"
+                        android:layout_gravity="center"
+                        android:background="#9A9292">
+
+                    </View>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/timeTakenTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=" "
+                    android:textSize="25sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <!--        destAptCode, landTime -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="0.4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/destCodeTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="YYZ"
+                    android:textAlignment="textEnd"
+                    android:textSize="34sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/landingTimeTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="13:30"
+                    android:textAlignment="textEnd"
+                    android:textSize="45sp"
+                    android:layout_marginBottom="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="750dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-4dp"
+            android:background="#8D9A9292">
+        </View>
+
+        <!--    {Economic class (and price), Business class (and price)} -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingVertical="10dp"
+            android:baselineAligned="false">
+            <!--        android:layout_margin="10dp"-->
+
+
+            <!--   Economic class (and price)   -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="0.4"
+                android:orientation="vertical"
+                android:background="@color/teal_700">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:text="Economic"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$"
+                        android:textSize="45sp"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="15dp"/>
+
+                    <TextView
+                        android:id="@+id/econPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="300"
+                        android:textSize="45sp"
+                        android:textColor="@color/white">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/econPriceBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#BDB628"
+                        android:text="Book"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="@color/black"
+                        android:textStyle="bold">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--     Business (and price) -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="0.4"
+                android:orientation="vertical"
+                android:background="#003549">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:text="Business"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$"
+                        android:textSize="45sp"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="15dp"/>
+                    <TextView
+                        android:id="@+id/busnPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="450"
+                        android:textSize="45sp"
+                        android:textColor="@color/white">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/busnPriceBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#BDB628"
+                        android:text="Book"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="@color/black"
+                        android:textStyle="bold">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
