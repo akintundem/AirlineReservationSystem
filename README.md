@@ -1,4 +1,4 @@
-# Note: This is a class project and was completed with another three members. 
+### Note: This is a class project and was completed with another three members. 
 
 # SkyLink
 
